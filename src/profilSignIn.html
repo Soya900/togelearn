@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Profile</title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' sizes="48x48" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #ECECEC;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand font-weight-bold"><img src="images/logo.png" alt="logo"
+                        width=50>TOGELEARN</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="explore.html" class="nav-link">Browse</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mr-3">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <input type="search" class="form-control input-sm has-search" placeholder="Search" />
+                        </div>
+                    </form>
+                    <ul class="navbar-nav mr-3">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Become a Teacher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">My Classes</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toogle" role="button" id="userDrop"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                    src="images/user.jpg" alt="user" width="31" height="31"
+                                    class="rounded-circle imgFit"></a>
+
+                            <div class="dropdown-menu dropdown-menu-right text-center" aria-labelledby="userDrop">
+                                <a href="profilSignIn.html" class="text-dark">
+                                    <img src="images/user.jpg" alt="user" width="50" height="50"
+                                        class="rounded-circle imgFit mt-1">
+                                    <p class="dropdown-item-text font-weight-bold">Nama User</p>
+                                </a>
+                                <p>Free Account</p>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-left" href="#"><i class="fas fa-bookmark"></i>
+                                    Bookmark</a>
+                                <a class="dropdown-item text-left" href="#"><i class="fas fa-pencil-alt"></i>
+                                    Classes</a>
+                                <a class="dropdown-item text-left" href="#"><i class="far fa-question-circle"></i>
+                                    Help</a>
+                                <a class="dropdown-item text-left" href="#"><i class="fas fa-sign-out-alt"></i> Sign
+                                    Out</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="signin.html" class="btn btn-secondary">Go Premium</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="m-0">Profil</h2>
+                        <a href="editProfil.html" class="btn btn-secondary">Edit Profil</a>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <img src="images/user.jpg" alt="user" width="200" height="200"
+                                class="rounded-circle imgFit">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <p class="font-weight-bold">Account Status: </p>
+                                    <p class="font-weight-bold">First Name: </p>
+                                    <p class="font-weight-bold">Last Name: </p>
+                                    <p class="font-weight-bold">Email: </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <p>Free account</p>
+                                    <p>Nama</p>
+                                    <p>User</p>
+                                    <p>namauser@giaml.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-5">
+                    <div>
+                        <h2 class="m-0">Overview</h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4 mb-4">
+                            <img src="images/Total%20Sales.png" alt="stat1" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="images/Total%20Sales-1.png" alt="stat2" class="img-fluid">
+                        </div>
+                        <div class="col-md-12">
+                            <img src="images/Statistics.png" alt="stat3" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-5">
+                    <div>
+                        <h2 class="m-0">Class Taken</h2>
+                    </div>
+                    <div class="col-md-10 mt-4">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow-sm h-100">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <img src="images/dum1.jpg" class="card-img-top" alt="img1">
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <small><i class="fas fa-user-circle"></i> +100 Students</small>
+                                            <small><i class="far fa-clock"></i> 1h 50m</small>
+                                        </div>
+                                        <p class="card-title">SOFTWARE ENGINEERING: Pengertian Spesifikasi Kebutuhan
+                                            Perangkat
+                                            Lunak (SKPL)</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <p><small>Yulius Denny Prabowo</small></p>
+                                            </a>
+                                            <a href="#" class="text-decoration-none text-dark"><small><i
+                                                        class="far fa-bookmark fa-2x"></i></small></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-5 mb-5">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="m-0">Class Made</h2>
+                        <a href="manClass.html" class="btn btn-secondary">Manage Class</a>
+                    </div>
+                    <div class="col-md-10 mt-4">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow-sm h-100">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <img src="images/dum1.jpg" class="card-img-top" alt="img1">
+                                    </a>
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <small><i class="fas fa-user-circle"></i> +100 Students</small>
+                                            <small><i class="far fa-clock"></i> 1h 50m</small>
+                                        </div>
+                                        <p class="card-title">SOFTWARE ENGINEERING: Pengertian Spesifikasi Kebutuhan
+                                            Perangkat
+                                            Lunak (SKPL)</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <a href="#" class="text-decoration-none text-dark">
+                                                <p><small>Yulius Denny Prabowo</small></p>
+                                            </a>
+                                            <a href="#" class="text-decoration-none text-dark"><small><i
+                                                        class="far fa-bookmark fa-2x"></i></small></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4" style="background-color: #D1D4E1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <p><strong>Company</strong></p>
+                    <a href="#">Contact</a><br>
+                    <a href="#">Help</a>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Community</strong></p>
+                    <a href="#">Go Premium</a>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Teaching</strong></p>
+                    <a href="#">Become a Teacher</a>
+                </div>
+            </div>
+            <hr class="mt-5">
+            <p class="m-0"><i>©Togelearn 2019</i></p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

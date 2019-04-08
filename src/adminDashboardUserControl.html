@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard - User Control</title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' sizes="48x48" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #ECECEC;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand font-weight-bold"><img src="images/logo.png" alt="logo"
+                        width=50>TOGELEARN</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="adminDashboardVerification.html" class="nav-link">Verification</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="adminDashboardUserControl.html" class="nav-link">User Control</a>
+                        </li>
+                    </ul>
+                    <a href="signin.html" class="btn btn-secondary">Log Out</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <h2 class="mt-5">Welcome, Admin</h2>
+            <hr>
+            <h3 class="lead">User Control</h3>
+            <table class="table table-hover table-sm">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First Name</th>
+                        <th scope="col">Last Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Date Join</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="align-middle">1</th>
+                        <td class="align-middle">Patricia</td>
+                        <td class="align-middle">Viona</td>
+                        <td class="align-middle">patriciaviona@gmail.com</td>
+                        <td class="align-middle">29/5/2019</td>
+                        <td class="align-middle">
+                            <a href="#" class="btn btn-outline-warning mr-2">Disable</a>
+                            <a href="#" class="btn btn-outline-danger">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="align-middle">2</th>
+                        <td class="align-middle">Chelsea</td>
+                        <td class="align-middle">Oktaviany</td>
+                        <td class="align-middle">chelseaoktaviany@gmail.com</td>
+                        <td class="align-middle">23/4/2016</td>
+                        <td class="align-middle">
+                            <a href="#" class="btn btn-outline-warning mr-2">Disable</a>
+                            <a href="#" class="btn btn-outline-danger">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="align-middle">3</th>
+                        <td class="align-middle">Yoas</td>
+                        <td class="align-middle">Setiawan</td>
+                        <td class="align-middle">yoas.setiawan@gmail.com</td>
+                        <td class="align-middle">4/4/2018</td>
+                        <td class="align-middle">
+                            <a href="#" class="btn btn-outline-warning mr-2">Disable</a>
+                            <a href="#" class="btn btn-outline-danger">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="align-middle">4</th>
+                        <td class="align-middle">Anil</td>
+                        <td class="align-middle">Kumar</td>
+                        <td class="align-middle">anilkumar@gmail.com</td>
+                        <td class="align-middle">21/2/2017</td>
+                        <td class="align-middle">
+                            <a href="#" class="btn btn-outline-warning mr-2">Disable</a>
+                            <a href="#" class="btn btn-outline-danger">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="align-middle">5</th>
+                        <td class="align-middle">Alvin</td>
+                        <td class="align-middle">Andreas</td>
+                        <td class="align-middle">alvinandreas@gmail.com</td>
+                        <td class="align-middle">6/10/2015</td>
+                        <td class="align-middle">
+                            <a href="#" class="btn btn-outline-warning mr-2">Disable</a>
+                            <a href="#" class="btn btn-outline-danger">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="align-middle">6</th>
+                        <td class="align-middle">David</td>
+                        <td class="align-middle">Silaban</td>
+                        <td class="align-middle">davesil@gmail.com</td>
+                        <td class="align-middle">7/4/2019</td>
+                        <td class="align-middle">
+                            <a href="#" class="btn btn-outline-warning mr-2">Disable</a>
+                            <a href="#" class="btn btn-outline-danger">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

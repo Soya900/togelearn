@@ -1,0 +1,17 @@
+1. Home
+2. Explore/Browse
+3. Sign In
+4. Sign Up
+5. Search
+6. Course detail
+7. Contact/help
+8. Dashboard User
+	Make course(teacher)
+	Upload Video(TEacher)
+	Course made(Teacher)
+	Paying dummy(student)
+	simple statistic(teacher)
+	Class taken(Student)
+9. Dashboard admin
+	Verification
+	User Control

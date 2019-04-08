@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' sizes="48x48" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #ECECEC;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand font-weight-bold"><img src="images/logo.png" alt="logo"
+                        width=50>TOGELEARN</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="explore.html" class="nav-link">Browse</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline mr-3">
+                        <div class="form-group has-feedback has-feedback-left">
+                            <input type="search" class="form-control input-sm has-search" placeholder="Search" />
+                        </div>
+                    </form>
+                    <a href="signin.html" class="btn btn-secondary">Sign In</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="signup.html" class="nav-link">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="formsignin" class="pt-5 mb-5" style="color: #52616D;">
+        <form action="#">
+            <h1>SIGN IN</h1>
+            <div class="form-group text-left">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group text-left">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="form-control" placeholder="********" required>
+            </div>
+            <p class="text-left">Don't have an account? <a href="signup.html" class="text-dark font-weight-bold">Sign
+                    up</a></p>
+            <button class="btn btn-md btn-primary">Sign In</button>
+        </form>
+    </section>
+
+    <footer class="footer py-4" style="background-color: #D1D4E1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <p><strong>Company</strong></p>
+                    <a href="#">Contact</a><br>
+                    <a href="#">Help</a>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Community</strong></p>
+                    <a href="#">Go Premium</a>
+                </div>
+                <div class="col-md-2">
+                    <p><strong>Teaching</strong></p>
+                    <a href="#">Become a Teacher</a>
+                </div>
+            </div>
+            <hr class="mt-5">
+            <p class="m-0"><i>©Togelearn 2019</i></p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
