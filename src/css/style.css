@@ -112,3 +112,25 @@ body {
     position: sticky;
     top: 3.75em;
 }
+
+/* Help Center */
+.help-hero {
+    background: url('/src/images/help.jpg') no-repeat;
+    background-size: cover;
+    height: 15em;
+}
+
+.help-btn {
+    background: #CCCED4;
+    color: #52616D;
+    padding: 5px 20px;
+    width: 15em;
+    display: block;
+    
+}
+
+.help-btn:hover {
+    background: rgb(212, 212, 212);
+    color: rgb(73, 95, 112);
+    text-decoration: none;
+}
