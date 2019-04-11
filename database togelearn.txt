@@ -1,0 +1,11 @@
+Akan ada guru, murid, admin.
+Guru dapat login.
+Guru akan dapat mengupload video dan materi pelajaran,
+Guru dapat melihat murid yang mengambil materinya.
+Untuk menjadi murid harus bayar.
+Murid dapat login.
+Murid akan dapat melihat dan mengambil materi dan video pelajaran,
+Murid juga akan bisa memberi comment untuk materi,
+Murid juga bisa membookmark materi.
+Admin dapat login.
+Admin dapat mengkonfirmasi pembayaran murid.

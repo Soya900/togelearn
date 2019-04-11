@@ -134,3 +134,41 @@ body {
     color: rgb(73, 95, 112);
     text-decoration: none;
 }
+
+/* Detail Materi */
+#video {
+    background: #E5E2E2;
+    padding: 3rem 0;
+}
+
+#desc {
+    padding-bottom: 3rem;
+}
+
+.list-wrapper {
+    padding: 0 15px 0 0;
+    position: absolute;
+    margin-left: 12px;
+    top: 42px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+    height: 250px;
+}
+
+.list-item {
+    padding: 10px 8px;
+    cursor: pointer;
+    border-radius: .5em;
+}
+
+.list-item.active {
+    background: #FFFFFF;
+    border: #FFFFFF 1px solid;
+}
+
+.list-item:hover {
+    border: #FFFFFF 1px solid;
+    font-weight: 500;
+}
