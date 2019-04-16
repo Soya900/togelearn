@@ -138,7 +138,6 @@ body {
 /* Detail Materi */
 #video {
     background: #E5E2E2;
-    padding: 3rem 0;
 }
 
 #desc {
@@ -171,4 +170,36 @@ body {
 .list-item:hover {
     border: #FFFFFF 1px solid;
     font-weight: 500;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #2E2E2E;
+    background-color: inherit;
+    border-bottom: 5px #2E2E2E solid;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-radius: 0;
+    color: #707070;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-bottom: 5px #2E2E2E solid;
+    color: #2E2E2E;
+}
+
+.dotted-project {
+    background: #F8F6F6;
+    border: 2px #2E2E2E dashed;
+    padding: 2rem;
+}
+
+.comments-item {
+    background: #F8F6F6;
+    padding: 1em;
 }
