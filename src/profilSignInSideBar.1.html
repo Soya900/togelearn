@@ -77,14 +77,46 @@
     <section id="main">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 mt-5 mb-5">
-
+                <div class="col-md-2 pt-5 stick">
+                    <ul class="kategori">
+                        <li><a href="#"><i class="fas fa-user fa-fw"></i> Profile</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line fa-fw"></i> Overview</a></li>
+                        <li><a href="#"><i class="fas fa-book fa-fw"></i> Class Taken</a></li>
+                        <li><a href="#"><i class="far fa-clipboard fa-fw"></i> Class Made</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-10 mt-5 mb-5">
+                    <div class="d-flex justify-content-between">
+                        <h2 class="m-0">Profil</h2>
+                        <a href="editProfil.html" class="btn btn-secondary">Edit Profil</a>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <img src="images/user.jpg" alt="user" width="200" height="200"
+                                class="rounded-circle imgFit">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="font-weight-bold">Account Status</p>
+                                    <p class="font-weight-bold">First Name</p>
+                                    <p class="font-weight-bold">Last Name</p>
+                                    <p class="font-weight-bold">Email</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p><span class="font-weight-bold">:</span> Free account</p>
+                                    <p><span class="font-weight-bold">:</span> Nama</p>
+                                    <p><span class="font-weight-bold">:</span> User</p>
+                                    <p><span class="font-weight-bold">:</span> namauser@giaml.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer class="footer py-4" style="background-color: #D1D4E1">
+    <footer id="footer" class="footer py-4" style="background-color: #D1D4E1">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -105,7 +137,6 @@
             <p class="m-0"><i>©Togelearn 2019</i></p>
         </div>
     </footer>
-
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>

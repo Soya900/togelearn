@@ -3,6 +3,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section {
+    min-height: calc(100vh - 22.8rem);
+}
+
+footer {
+    height: 241px;
+}
+
 #hero {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/hero.jpg") no-repeat center;
     background-size: cover;
@@ -203,3 +211,89 @@ body {
     background: #F8F6F6;
     padding: 1em;
 }
+
+/* Carousel Homepage */
+.carousel-control-prev, .carousel-control-next {
+    opacity: 0;
+    background-color: grey;
+    border-radius: 50%;
+    width: 8%;
+    height: 25%;
+    top: 38%;
+}
+
+.carousel-control-next {
+    right: 2em;
+}
+
+.carousel-control-prev {
+    left: 2em;
+}
+
+ol.carousel-indicators {
+    margin-bottom: -20px;
+    margin-top: 0;
+}
+
+.carousel-indicators li {
+    background-color: grey;
+}
+
+/* Profile
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 60px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+#footer.profile {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav.navbar {
+    z-index: 101;
+}
+
+.sidebar-sticky {
+    position: sticky;
+}
+
+.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+
+.sidebar-sticky .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.sidebar .nav-link {
+    display: block;
+    padding: 1rem;
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-link:hover {
+    color: #007bff;
+}
+
+.sidebar .nav-link.active {
+    color: #007bff;
+} */
